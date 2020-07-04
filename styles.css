@@ -1,0 +1,169 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+  
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    position: relative;
+    background-color: #ddf3f5;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 280px
+}
+
+.title-text {
+    padding-top: 165px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+h1 {
+    margin: 30px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    font-size: 5.625rem;
+  
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+  
+}
+
+h3 {
+    padding: 30px 0;
+    color: #11999E;
+}
+
+h4 {
+    color: #11999E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.intro {
+    width: 30%;
+    margin: 100px auto 100px auto;
+}
+
+.nouman {
+    width: 35%;
+    height: auto;
+    border-radius: 500px;
+}
+
+.bottom-container a {
+    color: #11999E;
+    margin: 20px auto;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.bottom-container a:hover{
+    color: white;
+}
+.skill-row {
+    width: 50%;
+    margin: 40px auto 70px auto;
+    text-align: left;
+    
+}
+
+.skill-row img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row1 {
+    width: 50%;
+    margin: 40px auto 70px auto;
+    text-align: left;
+  
+}
+
+.skill-row1 img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.button {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    height: 9px;
+    line-height: 9px;
+    color: #FFFFFF;
+    font-family: 'Merriweather', serif;
+    width: 190px;
+    font-size: 32px;
+    font-weight: 100;
+    padding: 28px;
+    background-color:  #66BFBF;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button:hover {
+    background: rgba(0, 190, 156, 0.89);
+    border: solid #000000 1px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+hr{
+    
+border: dotted #ddf3f5 6px;
+border-bottom: none;
+width: 5%;
+margin: 0 auto;
+    
+}
+p{
+    line-height: 2;
+}
+.contact h2{
+    margin: 50px auto;
+}
+.contact p{
+    width: 30%;
+    margin: auto;
+}
+.bottom-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #66BFBF;
+}
+.bottom-container p{
+    padding-top: 20px;
+
+}
+.skills , .contact{
+    margin-top: 70px;
+}
